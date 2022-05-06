@@ -1,0 +1,56 @@
+/*set the background as an a picture that fully 
+cover the all page without making an scrollbar*/
+body,
+html {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-image: url("/image/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Arial", serif;
+    display: flex;
+    justify-content: center;
+  }
+  /*make the bright rectangle on the background*/
+  #content-box {
+    text-align:center ;
+    font-size: 100%;
+    font-family: monospace;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 40px 40px;
+    width: 90vw;
+    max-width: 500px;
+    background-color: #0676ff47;
+    color: rgb(246, 4, 4);
+    border-radius: 20px;
+    animation: fade-in 0.9s;
+    position: relative;
+    box-shadow: 0 0 80px 20px rgb(8, 0, 0);
+    transition: background-color 0.9s;
+    margin-top: 250px;
+  }
+  /*style of movie part*/
+  .movie_style {
+    display: flex;
+    justify-content: space-between;
+  }
+  /*setting the color */
+  .starship li {
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+    color: rgb(255, 0, 0);
+    font-size: small;
+    font-weight: 600;
+  }
+  
+  .starship a {
+    color: rgb(255, 149, 0);
+    text-decoration: none;
+  }
+  
+  .starship span {
+    color: rgb(221, 208, 61);
+  }
